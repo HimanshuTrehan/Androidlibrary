@@ -5,7 +5,7 @@
     <application>
 
         <activity android:name="com.himanshu.customergludemolibrary.OpenCustomerGluWeb"
-            android:noHistory="true">
+            android:noHistory="false">
 
 
         </activity>
