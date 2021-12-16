@@ -10,7 +10,8 @@
 
         </activity>
 
-        <activity android:name="com.himanshu.customergludemolibrary.NotificationWeb">
+        <activity android:name="com.himanshu.customergludemolibrary.NotificationWeb"
+                  android:exported="true">
 
             <intent-filter>
                 <action android:name="OPEN_WEB" />
