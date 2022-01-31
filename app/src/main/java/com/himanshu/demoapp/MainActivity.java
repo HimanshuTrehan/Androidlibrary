@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findvies() {
-        Toast.makeText(getApplicationContext(), "hg", Toast.LENGTH_SHORT).show();
+        CustomerGlu.openMiddleNudge(getApplicationContext(),"");
     }
 }
