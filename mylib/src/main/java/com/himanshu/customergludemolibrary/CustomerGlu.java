@@ -175,6 +175,16 @@ public class CustomerGlu {
 
     }
 
+    public static void openMiddleNudge(Context context,String customer_token)
+    {
+        Intent web = new Intent(context,MiddleDialog.class);
+        web.putExtra("nudge_url","https://google.com");
+        web.putExtra("opacity","0.5");
+        web.setFlags(FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(web);
+
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     public static void displayCustomerGluNotification(Context context,JSONObject json) {
         JSONObject data = null;
