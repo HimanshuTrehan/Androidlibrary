@@ -70,13 +70,13 @@ public class MiddleDialog extends Activity {
         webView = findViewById(R.id.web_notification);
         pg = findViewById(R.id.pg);
         card = findViewById(R.id.card);
-        String  color;
-        color = Prefs.getKey(getApplicationContext(),"Loadercolor");
-        if (color.isEmpty())
-        {
-            color = "#FF000000";
-        }
-        pg.getIndeterminateDrawable().setColorFilter(Color.parseColor(color), PorterDuff.Mode.MULTIPLY);
+//        String  color;
+//        color = Prefs.getKey(getApplicationContext(),"Loadercolor");
+//        if (color.isEmpty())
+//        {
+//            color = "#FF000000";
+//        }
+//        pg.getIndeterminateDrawable().setColorFilter(Color.parseColor(color), PorterDuff.Mode.MULTIPLY);
 
         main = findViewById(R.id.main);
 
@@ -92,7 +92,7 @@ public class MiddleDialog extends Activity {
             backgroundOpcatity = 255*opacity;
 
 
-        main.getBackground().setAlpha((int) backgroundOpcatity);
+      //  main.getBackground().setAlpha((int) backgroundOpcatity);
 
         System.out.println("RET");
         System.out.println(url);
